@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 class Home extends React.Component {
   render () {
@@ -8,4 +9,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default connect()(Home);
